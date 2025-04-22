@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Char Dham Yatra by Road | Shree Shyam Travels</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('yamnotri.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 120px 20px 80px;
+      position: relative;
+    }
+    header img.logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      height: 60px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+    }
+    .cta-btn {
+      background-color: #007bff;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeIn 1s ease-out;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #007b5e;
+    }
+    .section ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+    .booking-form {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+    .booking-form input, .booking-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    .booking-form button {
+      background-color: #007b5e;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .booking-form button:hover {
+      background-color: #005f4a;
+    }
+    .thank-you-message {
+      color: green;
+      font-weight: 600;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .contact-bar {
+      background-color: #007b5e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+    .whatsapp-btn {
+      background-color: #25d366;
+      padding: 12px 20px;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #343a40;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Shree Shyam Travels Logo" class="logo" />
+  <h1>Char Dham Yatra by Road</h1>
+  <p>10 Days | Yamunotri – Gangotri – Kedarnath – Badrinath</p>
+  <a href="#booking" class="cta-btn">Book Now</a>
+</header>
+
+<section class="section">
+  <h2>Divine Journey through the Himalayas</h2>
+  <p>Embark on a sacred and scenic pilgrimage with Shree Shyam Travels. This well-planned road tour covers all four Char Dhams, ensuring comfort, safety, and spiritual upliftment.</p>
+</section>
+
+<section class="section">
+  <h2>Itinerary Highlights</h2>
+  <ul>
+    <li><strong>Day 1:</strong> Haridwar to Barkot via Mussoorie</li>
+    <li><strong>Day 2:</strong> Yamunotri trek and back to Barkot</li>
+    <li><strong>Day 3:</strong> Drive to Uttarkashi</li>
+    <li><strong>Day 4:</strong> Gangotri Temple visit</li>
+    <li><strong>Day 5:</strong> Scenic drive to Guptkashi</li>
+    <li><strong>Day 6:</strong> Kedarnath Trek / Helicopter Option</li>
+    <li><strong>Day 7:</strong> Return to Guptkashi</li>
+    <li><strong>Day 8:</strong> Drive to Badrinath via Joshimath</li>
+    <li><strong>Day 9:</strong> Return via Rudraprayag</li>
+    <li><strong>Day 10:</strong> End Yatra at Haridwar with Ganga Aarti</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>What's Included</h2>
+  <ul>
+    <li>Comfortable AC transport throughout</li>
+    <li>Hotel & guesthouse accommodations</li>
+    <li>Daily breakfast and dinner</li>
+    <li>Experienced guides and trekking support</li>
+    <li>Emergency medical backup</li>
+  </ul>
+</section>
+
+<section class="section" id="booking">
+  <h2>Book Your Yatra</h2>
+  <form class="booking-form" action="https://formspree.io/f/xovdqjlr" method="POST">
+    <input type="text" name="Name" placeholder="Your Name" required />
+    <input type="email" name="Email" placeholder="Your Email" required />
+    <input type="tel" name="Phone" placeholder="Your Phone Number" required />
+    <textarea name="Message" rows="4" placeholder="Any Message or Special Requests..."></textarea>
+    <button type="submit">Submit Booking Inquiry</button>
+  </form>
+  <div class="thank-you-message">
+    After you submit, you'll get a confirmation email. Thank you for your interest!
+  </div>
+</section>
+
+<div class="contact-bar">
+  📞 Call us: <strong>+91-7004361633</strong><br>
+  📧 Email: <strong>sstravels2008@gmail.com</strong><br>
+  <a class="whatsapp-btn" href="https://wa.me/917004361633" target="_blank">Chat on WhatsApp</a>
+</div>
+
+<footer>
+  © 2025 Shree Shyam Travels | <a href="https://www.sstonewaycab.com" style="color:#ccc;">www.sstonewaycab.com</a>
+</footer>
+
+</body>
+</html>
